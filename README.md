@@ -22,14 +22,17 @@ machine.
 | **[XNote](https://github.com/spencercnorton/xnote)** | Modern GTK4 sticky notes for GNOME. Descended from Xpad, with a colour picker, layout presets and Wayland-safe placement. | from source | [GPL-3.0-or-later](https://github.com/spencercnorton/xnote/blob/main/COPYING) |
 | **[XNote Placement](https://github.com/spencercnorton/xnote-placement)** | Puts every XNote sticky note back where you left it. A GNOME Shell extension that restores each note's position, monitor and workspace on Wayland, where the app cannot do it itself. | APT (Ubuntu 26.04) · source | [GPL-3.0-or-later](https://github.com/spencercnorton/xnote-placement/blob/main/LICENSE) |
 | **[SnipSnap](https://github.com/spencercnorton/snipsnap)** | Screenshot any region of any monitor on GNOME Wayland, with no permission dialog. A Qt 6 capture-and-annotate tool whose GNOME Shell extension draws the selection inside the compositor. Descended from Flameshot. | APT (Ubuntu 26.04) · source | [GPL-3.0-or-later](https://github.com/spencercnorton/snipsnap/blob/main/LICENSE) |
+| **[Conductor](https://github.com/spencercnorton/conductor)** | A drop-in HDHomeRun tuner for Plex Live TV, backed by your own IPTV credentials. One Go service that pools provider slots, enriches the guide, and speaks the protocols Plex already trusts. | Docker Compose · source | [MIT](https://github.com/spencercnorton/conductor/blob/main/LICENSE) |
 | **[NorviOS](https://github.com/spencercnorton/norvi-os)** | The NorviTech look for Ubuntu 26.04, from the boot splash to the window glass. A reversible layer over stock Ubuntu and GNOME 50, applied only through the override points Ubuntu provides, so updates keep working and one command puts the original back. | from source | [GPL-3.0-or-later](https://github.com/spencercnorton/norvi-os/blob/main/LICENSE) |
 | **[Indigo](https://github.com/spencercnorton/indigo)** | A fork of Swiss for the Nintendo GameCube with the interface rebuilt. An animated Home, a poster library and game details, drawn in the console's own visual language. | SD card zip | [GPL-2.0-or-later](https://github.com/spencercnorton/indigo/blob/main/LICENSE) |
+| **[Road Track](https://github.com/spencercnorton/roadtrack)** | What every car in the garage really costs, on top of LubeLogger. A running-cost dashboard, a finance tab and printable reports for the self-hosted LubeLogger vehicle tracker, added over its published image without forking it. | Docker Compose · source | [MIT](https://github.com/spencercnorton/roadtrack/blob/main/LICENSE) |
 
 Every README's `Install` section is the install page for that product.
-Helios installs from an APT repository on Ubuntu 26.04 ([how](https://github.com/spencercnorton/helios#install)); BitAgent ships as a Docker Compose file; the desktop tools build from source with the
+Helios installs from an APT repository on Ubuntu 26.04 ([how](https://github.com/spencercnorton/helios#install)); BitAgent and Conductor ship as Docker Compose files; the desktop tools build from source with the
 commands CI runs; the extension installs from the same APT repository into GNOME Shell;
 NorviOS installs from source with two scripts, one of them per-user, and removes the same way;
-Indigo is a zip whose files you copy onto the GameCube's SD card.
+Indigo is a zip whose files you copy onto the GameCube's SD card;
+Road Track replaces LubeLogger's image and keeps its data.
 
 ## How these repositories work
 
@@ -63,7 +66,9 @@ The whole suite, with links to every product, lives at
   <a href="https://github.com/spencercnorton/xnote">XNote</a> ·
   <a href="https://github.com/spencercnorton/xnote-placement">XNote Placement</a> ·
   <a href="https://github.com/spencercnorton/snipsnap">SnipSnap</a> ·
+  <a href="https://github.com/spencercnorton/conductor">Conductor</a> ·
   <a href="https://github.com/spencercnorton/norvi-os">NorviOS</a> ·
   <a href="https://github.com/spencercnorton/indigo">Indigo</a> ·
+  <a href="https://github.com/spencercnorton/roadtrack">Road Track</a> ·
   <a href="https://norvitech.com">norvitech.com</a>
 </p>
