@@ -36,11 +36,9 @@ Road Track replaces LubeLogger's image and keeps its data.
 
 ## How these repositories work
 
-- **Release mirrors.** Development happens in a private tree; every tagged
-  release is exported here through an automated gate that checks the tree for
-  anything that should not be public. Pull requests are reviewed here, applied
-  to the development tree and ship in the next tag, with your name in the
-  release notes.
+- **Development on GitHub.** Open a pull request in the relevant repository.
+  Changes are reviewed and merged there; each product’s CONTRIBUTING.md explains
+  its checks and release process.
 - **Same shape everywhere.** Every repository has the same README layout, the
   same badge row, an issue chooser, a `SECURITY.md`, a `SUPPORT.md` and a
   `CONTRIBUTING.md`. If you know one, you know them all.
